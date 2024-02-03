@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* 
+.login {
+  background-color: #cbced1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.login form {
+  background-color: white;
+  width: 30%;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.login input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login p {
+  text-align: center;
+}
+
+.login a {
+  color: #2196f3;
+  text-decoration: none;
+}
+h1{
+  
+  margin-left: 126px;
+
+}*/
+/* header {
+  background-color: #2196f3;
+  color: aliceblue;
+
+  margin: auto -16px;
+  padding: 1px 16px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}  */
+
+.login {
+  background-color: #fcfcfc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  
+  margin-left: 126px;
+
+}
+.login h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.login form {
+  background-color: white;
+  width: 30%;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.login input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login p {
+  text-align: center;
+}
+
+.login a {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196f3;
+  /* padding: 1px 16px;
+  padding-top: -110px; */
+  margin-top: -19px; 
+  margin-bottom: -10px;
+}
+
+header h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav img {
+  width: 32px;
+  height: 32px;
+}

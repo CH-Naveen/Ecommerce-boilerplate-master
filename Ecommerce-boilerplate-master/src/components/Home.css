@@ -1,0 +1,58 @@
+.home {
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home h1 {
+    color: #2196f3;
+    font-size: 4rem;
+    margin: 1rem;
+  }
+  
+  .home nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+  }
+  
+  .home nav a {
+    color: #2196f3;
+    text-decoration: none;
+    margin: 0.5rem;
+  }
+  
+  .home products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem;
+  }
+  
+  .home product {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+  
+  .home product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .home product p {
+    margin: 0.5rem;
+  }
+  
+  .home product buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+  }
+  
+  .home product button {
+    color: white;
+    background-color: #2196f3;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
